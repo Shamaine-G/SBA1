@@ -1,0 +1,72 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body    {
+    background-image: url("soul\ food\ background.jpg");
+    /* object-fit: cover;     */
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.header   {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.navi ul   {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navi li {
+    float: left;
+}
+
+#about  {
+    float: right;
+}
+
+.navi a   {
+    color: white;
+    text-decoration:  none;
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+}
+
+.navi a:hover   {
+    background-color:chocolate;
+}
+
+h1  {
+    text-align: center;
+    color: chocolate;
+    border: 1px solid black;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+button  {
+    background-color: chocolate;
+    color: black;
+    border: 1px solid;
+    border-radius: 8 px;
+    height: 50px;
+    width: 180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30%;
+    margin-left: 20%;
+}

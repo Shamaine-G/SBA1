@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Shane Sign-up</title>
+    <style>
+                .header   {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        
+        .navi ul   {
+            list-style-type: none;
+            background-color: black;
+            overflow: hidden;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+        
+        .navi li {
+            float: left;
+        }
+        
+        #about  {
+            float: right;
+        }
+        
+        .navi a   {
+            color: white;
+            text-decoration:  none;
+            padding: 14px 16px;
+            display: block;
+            text-align: center;
+        }
+        
+        .navi a:hover   {
+            background-color:chocolate;
+        }
+    </style>
+
+</head>
+<body style="background-color: black; color: white;">        
+    <Header class="header">
+    <nav class="navi">
+        <ul>
+            <li><a href="homepage.html" >HOME</a></li>
+            <li><a href="signup.html">SIGN UP</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li id="about"><a href="homepage.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    </Header>
+
+    <center>
+        <h1> 
+            Sign-up Here
+        </h1>  
+        <form action="#">
+            <label for="emailAddress">Email Address</label>
+            <input type="text" name="Email Address" id="Email Address">
+             <br>
+            <label for="userName">User Name</label>
+            <input type="text" name="userName" id="userName">
+            <br>
+            <label for="password">Password</label>
+            <input type="text" name="Password" id="Password" required>
+            <br>
+        </form>	
+        
+        <form action="#">
+                <label>Choose a country code:</label>
+                <select name="Country Code">
+                    <option value="123">123</option>
+                    <option value="124">124</option>
+                    <option value="125">125</option>
+                    <option value="126">126</option>
+                    <option value="127">127</option>
+                    <option value="128">128</option>
+                </select>
+         </form>
+         <label for="telphone number">Telephone number</label>
+         <input type="number" name="Telephone Number" id="Telephone number">
+         <button> Sign-up Now </button>
+    </center>
+
+
+</body>
+</html>
